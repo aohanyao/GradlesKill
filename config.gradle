@@ -1,0 +1,10 @@
+ext {
+    android = [compileSdkVersion       : 26,
+               minSdkVersion           : 18,
+               targetSdkVersion        : 26,
+               versionCode             : 1,
+               versionName             : "1.0"
+    ]
+    // 创建一个 dependencies集合，存储的内容为 "key" : "value"
+    dependencies = ["appcompat-v7": "com.android.support:appcompat-v7:26.1.0"]
+}
